@@ -1,74 +1,33 @@
 <html>
     <head>
-        <title>Signup Form</title>
+        <title>SignUp form</title>
     </head>
 
     <body>
-        <h2>SignUp Form</h2>
+        <h2 name="h2Title">SignUp form</h2>
         <form>
-            <!-- input is a self closing tag -->
-            <!-- input is to take user input -->
+            <!-- Input is a self closing tag -->
             <div>
-                <label name="lblEmail"for="inputEmail">Please Enter your email address</label>
+                <label name="lblEmail" for="inputEmail">Email Address</label>
                 <input type="email" name="inputEmail">
             </div>
-
-            <div>
-                <label name="lblName"for="inputName">Please Enter your Name</label>
+           <div>
+                <label name="lblName" for="inputName">Enter Name</label>
                 <input type="text" name="inputName">
-            </div>
+           </div>
+           <div>
+               <label for="inputPassword">Enter password</label>
+               <input type="password" name="inputPassword">
+           </div>
+           <div>
+               <label for="inputDOB">Enter date of birth</label>
+               <input type="date" name="inputDOB">
+           </div>
+           <div>
+                <label for="inputPhoneNO">Enter Phone No</label>
+                <input type="tel" name="inputPhoneNo">
+           </div>
 
-            <div>
-                <label name="lblUserName"  for="inputUserName">Enter Username</label>
-                <input type="text" name="inputUserName">
-            </div>
-
-            <div>
-                <label name="lblPassword"  for="inputPassword">Enter Your Password</label>
-                <input type="password" name="inputPassword">
-            </div>
-
-            <div>
-                <label name="lblDOB" for="lblDOB" for="inputDOB">Enter Your Date Of Birth</label>
-                <input type="date" name="inputDOB">
-            </div>
-
-            <div>
-                <label name="lblPhone" for="inputPhone">Enter Your Phone Number</label>
-                <input type="tel" name="inputPhone">
-            </div>
-
-            <div>
-                <label for="txtAddress">Address</label>
-                <textarea name="txtAddress" id="txtAddress" cols="30" rows="10"></textarea>
-            </div>
-
-            <div>
-                <label for="inputGender">Gender</label>
-                <input type="radio" name="gender"><label>Male</label>
-                <input type="radio" name="gender"><label>Female</label>
-            </div>
-
-            <div>
-                <label for="inputFile">Upload Resume</label>
-                <input type="file" name="inputFile">
-            </div>
-
-            <div>
-                <label for="ddlCountry">Country</label>
-                <select name="ddlCountry" id="ddlCountry">
-                <option value="0">Select</option>
-                <option value="1">America</option>
-                <option value="2">Australia</option>
-                <option value="3">Canda</option>
-                </select>
-            </div>
-
-            <div>
-                <input type="checkbox" name="Inputterms"><label for="Inputterms">terms and conditions</label>
-            </div>
-            
-            <input type="submit">
         </form>
     </body>
 </html>
