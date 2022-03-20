@@ -1,33 +1,66 @@
-<html>
-    <head>
-        <title>SignUp form</title>
-    </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Forms.css">
+    <title>SignupForm</title>
+</head>
+<body>
+    <div class="header">
+        <h1 style="color:cornsilk">SignupForm</h1>
+    </div>
 
-    <body>
-        <h2 name="h2Title">SignUp form</h2>
-        <form>
-            <!-- Input is a self closing tag -->
-            <div>
-                <label name="lblEmail" for="inputEmail">Email Address</label>
-                <input type="email" name="inputEmail">
-            </div>
-           <div>
-                <label name="lblName" for="inputName">Enter Name</label>
-                <input type="text" name="inputName">
-           </div>
-           <div>
-               <label for="inputPassword">Enter password</label>
-               <input type="password" name="inputPassword">
-           </div>
-           <div>
-               <label for="inputDOB">Enter date of birth</label>
-               <input type="date" name="inputDOB">
-           </div>
-           <div>
-                <label for="inputPhoneNO">Enter Phone No</label>
-                <input type="tel" name="inputPhoneNo">
-           </div>
+    <div>
+        <h4 class="title">Please Enter the details</h4>
+    </div>
+    <form class="container" >
+        <div>
+            <label class="mandatory_fields" for="InputEmail">Email</label>
+            <input type="email" name="InputEmail" placeholder="Enter Email Here">
+        </div>
+        <div>
+            <label class="mandatory_fields" name="InputUserName" for="UserName">Enter UserName</label>
+            <input type="text" name="InputUserName" placeholder="Enter UserName Here">
+        </div>
+        <div>
+            <label class="mandatory_fields" name="InputDOB" for="InputDOB">Enter Date of Birth</label>
+            <input type="DOB" name="InputDOB" placeholder="Enter Date of Birth">
+        </div>
+        <div>
+            <label class="mandatory_fields" for="InputGender">Gender</label>
+            <input type="radio" name="InputGender"><label for="InputGender">Male</label>
+            <input type="radio" name="InputGender"><label for="InputGender">Female</label>
+        </div>
+        <div>
+            <label class="mandatory_fields" name="InputFile" for="InputFile">Upload Resume</label>
+            <input type="file" name="InputFile">
+        </div>
+        <div>
+            <label class="mandatory_fields" name="InputPhone" for="InputPhone">Enter Phone number</label>
+            <input type="number" name="InputPhone">
+        </div>
+        
+        <div>
+            <label class="mandatory_fields" name="txtAddress" for="txtAddress">Enter Address</label>
+            <input type="txtAddress" name="InputxtAddress" placeholder="Enter Address" cols="20" rows="10">
+        </div>
+        <div>
+            <label class="mandatory_fields" for="ddlCountry">Country</label>
+            <select name="ddlCountry" id="ddlCountry">
+                <option value="0">Select</option>
+                <option value="1">India</option>
+                <option value="2">UK</option>
+                <option value="3">China</option>
+            </select>
+        </div>
+        <div>
+            <input type="checkbox" name="inputterms"> <label for="Inputterms">Terms & Conditions</label>
+        </div>
+        
+        <input type="submit">
+    </form>
 
-        </form>
-    </body>
+</body>
 </html>

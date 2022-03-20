@@ -1,0 +1,44 @@
+body{
+    margin: 25px;
+}
+
+.parent{
+    padding:4%;  
+    /* margin:2%; */
+    border:1px solid green;
+    background-color: coral;
+    /* create a flexible container which makes item flexible */
+    display: flex;
+    height: 100%;
+    /* Aligning flexible  items horizontally */
+    justify-content: center;
+    /* alignig flexible item vertically */
+    align-items: center;
+    /* flex-direction: column;    used align item in coloumn */
+}
+
+.child{
+    display:flex;
+    background-color: lightgrey;
+    border:1px solid lightblue;
+    margin:2%;
+    height:150px;
+    font-weight: bold;
+    font-style: normal;
+    width:150px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.position{
+    position:absolute;
+    left:0px;
+    top:0px;
+    
+}
+
+.hide{
+    /* display: none; */
+    /* visibility:hidden;  */
+}
