@@ -13,7 +13,7 @@ console.log(typeof y)
 console.log(x==null);//true because value of x and y are same
 console.log(x===y);//false because object != Undefined
 
-let num1=10;//number
-let num2 = "10";//string
-console.log(num1==num2);//true
-console.log(num1===num2);//false
+// let num1=10;//number
+// let num2 = "10";//string
+// console.log(num1==num2);//true
+// console.log(num1===num2);//false
