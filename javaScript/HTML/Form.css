@@ -1,0 +1,20 @@
+
+/* ID selector applied only 3  times in html document */
+/* Using ID selector external css */
+#h2Title{
+    font-size: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    /* Here inline css override extrenal css */
+    color:red;
+}
+
+/* Universal selector ::appy to all the elements.  */
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* using Class Selector */
+.mandatory_fields{
+    font-weight:bold;
+    
+}

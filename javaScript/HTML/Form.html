@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>SignUp Form</title>
+        <!-- Here we apply internal css -->
+        <link rel="stylesheet" href="Form.css">
+        <!-- Here we use Internal css -->
+        <style>
+            /* Here we use id selector */
+            /*  #h2Title {
+                font-size: 60px;
+            } */
+        </style>
+        
+
+    </head>
+
+    <body>
+
+        <!-- Here inline css is applied -->
+        <h2 id="h2Title" style="text-align: center;" >SignUp Form</h2>
+        <div>
+            <form>
+                <div>
+                    <label class="mandatory_fields" for="inputEmail">Email Address</label>
+                    <!-- Input is self closing tag -->
+                    <input type="email" name="inputEmail">
+                </div>
+                <div>
+                    <label class="mandatory_fields" name="lblName" for="inputName">Enter Name</label>
+                    <input type=" text" name="inputName" >
+                </div>
+                <div>
+                    <label class="mandatory_fields" name="lbl" for="inputUserName">Enter User Name</label>
+                    <input type="text" name="inputUserName">
+                </div>
+                <div>
+                    <label name="lblPhoneNumber" for="inputPhoneNumber"></label>
+                    <input type="number" name="inputPhoneNumber">
+                </div>
+                <div>
+                    <label name="lblPassword" for="inputPassword">Password</label>
+                    <input type="password" name="inputPassword">
+                </div>
+                <div>
+                    <label name="lblDOB" for="inputDOB">Enter DOB</label>
+                    <input type="date" name="inputDOB">
+                </div>
+                <div>
+                    <label name="lbltxtAddress" for="textAddress"></label>
+                    <textarea name="txtAddress" id="txtAddress" cols="30" rows="5"></textarea>
+                </div>
+                <div>
+                    <label for="inputGender"> Gender</label>
+                    <input type="radio" name="gender"><label>Male</label>
+                    <input type="radio" name="gender"><label>Female</label>
+                </div>
+                <div>
+                    <label for="inputFile">Upload Resume</label>
+                    <input type="file" name="inputFile">
+                </div>
+                <div>
+                    <label for="ddlCountry">Select Country</label>
+                    <select name="ddlCountry" id="ddlCountry">
+                    <option value="0">Select</option>
+                    <option value="1">India</option>
+                    <option value="2">Japan</option>
+                    <option value="3">Australia</option>
+                    </select>
+                </div>
+                <input type="submit">
+            </form>
+        </div>
+    </body>
+</html>
