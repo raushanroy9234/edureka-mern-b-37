@@ -23,3 +23,8 @@ for(let i=index;i>=0;i--){
     str1 = str1.concat(str[i]);
 }
 console.log(str1);
+
+
+
+
+
